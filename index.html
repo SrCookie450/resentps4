@@ -12,6 +12,7 @@
 		<meta property="og:description" content="Resent 1.8" />
 		<link type="image/png" rel="shortcut icon" href="favicon.png" id="favicon"/>
 		<script type="text/javascript" src="./classes.js"></script>
+		<script type="text/javascript" src="./eaglerconsole.user.js"></script>
 		<style>
             @font-face {
                 font-family: Aller;
@@ -306,13 +307,18 @@
 						assetsURI: "assets.epk",
 						localesURI: "lang/",
 						servers: [
+							{ addr: "wss://web.epicblocks.online/", name: "Epic Blocks (broken link NÃO USE)" },
+							{ addr: "wss://pcmkr8ch-8081.brs.devtunnels.ms/", name: "Epic Blocks" },
 							{ addr: "wss://mc.arch.lol/", name: "ArchMC" },
 							{ addr: "wss://ep.rufan.tech", name: "TimeLegacy"},
 							{ addr: "wss://play.ragexwaternet.online", name: "Water Network"},
 							{ addr: "wss://mc.asspixel.net/", name: "Ass Pixel" },
 							{ addr: "wss://vanillacraft.kones.tech/", name: "VanillaMC Legacy" },
 							{ addr: "wss://clever-teaching.com", name: "Clever Teaching" },
-							{ addr: "wss://ggsmp.net", name: "GG SMP"}
+							{ addr: "wss://ggsmp.net", name: "GG SMP"},
+							{ addr: "wss://zentic.cc", name: "Zentic"},
+							{ addr: "wss://mc.ricenetwork.xyz", name: "Rice Network"},
+							{ addr: "wss://cbnet.lol", name: "Cheeseburger Network"}
 						],
 						demoMode: false,
 						worldsDB: "worlds",
